@@ -1,0 +1,23 @@
+﻿unop_can_contract_disease_trigger = {
+	switch = {
+		trigger = $DISEASE$
+		trait:ergotism = 		{ can_contract_disease_trigger = { DISEASE = ergotism } }
+		trait:dysentery = 		{ can_contract_disease_trigger = { DISEASE = dysentery } }
+		trait:typhus = 			{ can_contract_disease_trigger = { DISEASE = typhus } }
+		trait:smallpox = 		{ can_contract_disease_trigger = { DISEASE = smallpox } }
+		trait:bubonic_plague = 	{ can_contract_disease_trigger = { DISEASE = bubonic_plague } }
+		trait:ill = 			{ can_contract_disease_trigger = { DISEASE = ill } }
+		trait:great_pox = 		{ can_contract_disease_trigger = { DISEASE = great_pox } }
+		trait:gout_ridden = 	{ can_contract_disease_trigger = { DISEASE = gout_ridden } }
+		trait:leper = 			{ can_contract_disease_trigger = { DISEASE = leper } }
+		trait:consumption = 	{ can_contract_disease_trigger = { DISEASE = consumption } }
+		trait:cancer = 			{ can_contract_disease_trigger = { DISEASE = cancer } }
+		trait:pneumonic = 		{ can_contract_disease_trigger = { DISEASE = pneumonic } }
+		trait:measles = 		{ can_contract_disease_trigger = { DISEASE = measles } }
+		trait:lovers_pox = 		{ can_contract_disease_trigger = { DISEASE = lovers_pox } }
+		fallback = {
+			# Unop: Can't set a trace there sadly as you cannot log inside a trigger afaik
+			always = yes
+		}
+	}
+}
