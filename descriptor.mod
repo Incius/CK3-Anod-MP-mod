@@ -4,4 +4,5 @@ tags={
 	"Fixes"
 }
 name="Anod's MP Balance and Fixes"
+picture="thumbnail.png"
 supported_version="1.16.2.3"
