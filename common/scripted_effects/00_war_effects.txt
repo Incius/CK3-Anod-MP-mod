@@ -196,9 +196,6 @@ on_declared_war = {
 			}
 
 			if = {
-				limit = {
-					NOT = { has_perk = flexible_truces_perk }
-				}
 				add_prestige = break_truce_prestige_loss
 				add_prestige_level = break_truce_prestige_level_loss
 			}
