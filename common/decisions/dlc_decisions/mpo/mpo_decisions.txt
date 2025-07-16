@@ -3195,6 +3195,7 @@ mpo_become_greatest_of_khans_decision = {
 	}
 
 	is_valid = {
+		current_year >= 1100
 		custom_tooltip = {
 			text = gok_mongols_disable_warning_tt
 			NOT = {
