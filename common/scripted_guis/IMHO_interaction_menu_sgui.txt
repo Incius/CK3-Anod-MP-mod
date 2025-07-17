@@ -1,0 +1,24 @@
+﻿sgui_IMHO_set_PoV = {
+	scope = character
+	saved_scopes = {
+		character
+	}
+
+	is_shown = {
+
+	}
+	effect = {
+		set_variable = {
+			name = IMHO_PoV
+			value = scope:character
+		}
+	}
+}
+
+sgui_IMHO_reset_PoV = {
+	scope = character
+
+	effect = {
+		remove_variable = IMHO_PoV
+	}
+}

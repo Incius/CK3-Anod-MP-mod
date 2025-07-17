@@ -1,0 +1,5 @@
+﻿l_russian:
+
+  IMHO_PoV: "[GetPlayer.MakeScope.Var('IMHO_PoV').Char.GetShortUINamePossessive] мнение:"
+  IMHO_set_PoV_TT: "#T Show character's opinions\n#!Отслеживать мнение этого персонажа о других"
+  IMHO_reset_PoV_TT: "#T Hide character's opinions\n#!Перестать отслеживать мнение этого персонажа о других"
