@@ -169,7 +169,6 @@ innovation_currency_02 = {
 		domain_limit = 1
 	}
 
-
 	flag = global_regular
 	flag = early_medieval_era_regular
 }
