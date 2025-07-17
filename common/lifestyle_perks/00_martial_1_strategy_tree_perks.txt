@@ -180,7 +180,9 @@ sappers_perk = {
 	parent = hit_and_run_perk
 	parent = living_off_the_land_perk
 	
-	army_siege_value_mult = 0.2
+	character_modifier = {
+		army_siege_value_mult = 0.2
+	}
 }
 
 
