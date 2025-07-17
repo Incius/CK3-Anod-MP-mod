@@ -1,0 +1,12 @@
+﻿# KAN prefix coz it's literally the gamerule from KGD: Adventurer Nerfs.
+# I ain't rewriting that, it's mine anyways.
+kan_on_landed_army_keep = {
+	
+	categories = {
+		tweaks
+	}
+	
+	default = kan_on_landed_army_keep_as_special_troops
+	kan_on_landed_army_keep_as_special_troops = { flag = GG_can_change_rule }
+	kan_on_landed_army_keep_as_special_troops_inheritable = { flag = GG_can_change_rule }
+}

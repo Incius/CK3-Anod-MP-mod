@@ -1,0 +1,6 @@
+﻿l_english:
+ rule_kan_on_landed_army_keep: "[adventurers|E] army inheritance"
+ setting_kan_on_landed_army_keep_as_special_troops: "#high Not Inheritable#!"
+ setting_kan_on_landed_army_keep_as_special_troops_desc: "[adventurers|E] [men_at_arms|E] turn into [special_troops|E] after becoming [landed|E]. Those troops will stand down on succession."
+ setting_kan_on_landed_army_keep_as_special_troops_inheritable: "#high Inheritable#!"
+ setting_kan_on_landed_army_keep_as_special_troops_inheritable_desc: "[adventurers|E] [men_at_arms|E] turn into [special_troops|E] after becoming [landed|E]. Those troops will not stand down on succession."
