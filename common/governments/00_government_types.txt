@@ -440,7 +440,6 @@ nomad_government = {
 	flag = government_is_nomadic
 	flag = government_can_raid_rule
 	flag = government_can_use_tributary_men_at_arms
-	flag = can_start_war_with_raised_troops
 	flag = ignores_faith_marriage_penalties
 	flag = no_hostile_attrition_in_steppe # Done in code, here for loc
 	flag = movement_speed_from_government
