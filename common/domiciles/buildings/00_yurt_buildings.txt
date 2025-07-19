@@ -5835,7 +5835,7 @@ merc_yurt_01 = {
 	}
 
 	character_modifier = {
-		mercenary_hire_cost_mult = -0.1
+		mercenary_hire_cost_mult = -0.03
 		mercenary_hire_time_mult = 0.1
 	}
 
@@ -5864,7 +5864,7 @@ merc_yurt_02 = {
 	}
 
 	character_modifier = {
-		mercenary_hire_cost_mult = -0.05
+		mercenary_hire_cost_mult = -0.03
 		mercenary_hire_time_mult = 0.1
 	}
 
@@ -5897,7 +5897,7 @@ merc_yurt_03 = {
 	}
 
 	character_modifier = {
-		mercenary_hire_cost_mult = -0.05
+		mercenary_hire_cost_mult = -0.03
 		mercenary_hire_time_mult = 0.1
 	}
 
@@ -5933,7 +5933,7 @@ merc_yurt_04 = {
 	}
 
 	character_modifier = {
-		mercenary_hire_cost_mult = -0.05
+		mercenary_hire_cost_mult = -0.03
 		mercenary_hire_time_mult = 0.1
 	}
 
@@ -5983,7 +5983,7 @@ merc_yurt_05 = {
 	}
 
 	character_modifier = {
-		mercenary_hire_cost_mult = -0.05
+		mercenary_hire_cost_mult = -0.03
 		mercenary_hire_time_mult = 0.1
 	}
 
@@ -6019,7 +6019,7 @@ merc_yurt_06 = {
 	}
 
 	character_modifier = {
-		mercenary_hire_cost_mult = -0.1
+		mercenary_hire_cost_mult = -0.05
 		mercenary_hire_time_mult = 0.1
 	}
 
