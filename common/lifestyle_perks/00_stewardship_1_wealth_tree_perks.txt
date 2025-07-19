@@ -269,7 +269,7 @@ golden_aplomb_perk = {
 	government_character_modifier = {
 		flag = government_is_landless_adventurer
 		invert_check = yes
-		monthly_income_per_stress_level_mult = 0.1
+		monthly_income_per_stress_level_mult = 0.05
 	}
 	
 	effect = {
@@ -304,10 +304,6 @@ at_any_cost_perk = {
 			}
 			desc = at_any_cost_perk_name
 		}
-	}
-
-	character_modifier = {
-		domain_tax_mult = 0.1
 	}
 
 	effect = {

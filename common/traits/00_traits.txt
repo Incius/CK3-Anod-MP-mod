@@ -1569,14 +1569,12 @@ administrator = {
 
 avaricious = {
 	category = lifestyle
-
-	stewardship = 2
+	
 	tax_mult = 0.15
 
 	culture_modifier = {
 		parameter = maritime_mercantilism_avaricious_bonus
-		stewardship = 2
-		tax_mult = 0.10
+		tax_mult = 0.05
 	}
 
 	culture_modifier = {
@@ -2343,8 +2341,8 @@ greedy = {
 	}
 	diplomacy = -2
 
-	monthly_income_mult = 0.05
-	monthly_income_per_stress_level_mult = 0.1
+	monthly_income_mult = 0.1
+	monthly_income_per_stress_level_mult = 0.05
 	courtly_opinion = -15
 	
 	ai_war_chance = 0.5
