@@ -1966,7 +1966,7 @@ scoundrel_attribute = {
         # glory_requirement =  { modifiers and unlocks }
         100 = { # rank 1
             liege_modifier = {
-               mercenary_hire_cost_mult = -0.1
+               mercenary_hire_cost_mult = -0.05
             }
         }
         300 = { # rank 2
@@ -1976,26 +1976,26 @@ scoundrel_attribute = {
         }
         600 = { # rank 3
             liege_modifier = {
-                martial_per_stress_level = 2
-                mercenary_hire_cost_mult = -0.2
+                martial_per_stress_level = 1
+                mercenary_hire_cost_mult = -0.1
             }
         }
         1000 = { # rank 4
             liege_modifier = {
                 martial_per_stress_level = 2
-                mercenary_hire_cost_mult = -0.2
+                mercenary_hire_cost_mult = -0.1
             }
         }
         1500 = { # rank 5
             liege_modifier = {
-                martial_per_stress_level = 5
-                mercenary_hire_cost_mult = -0.3
+                martial_per_stress_level = 3
+                mercenary_hire_cost_mult = -0.15
             }
         }
         2100 = { # rank 6
             liege_modifier = {
-                martial_per_stress_level = 5
-                mercenary_hire_cost_mult = -0.3
+                martial_per_stress_level = 3
+                mercenary_hire_cost_mult = -0.15
             }
         }
     }
