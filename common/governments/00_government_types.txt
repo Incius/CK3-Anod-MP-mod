@@ -1,4 +1,4 @@
-﻿### Brief: feudal_government
+### Brief: feudal_government
 #
 # This is referenced in code
 #
@@ -186,9 +186,15 @@ tribal_government = {
 		feudal_government_vassal_opinion = -20
 		clan_government_vassal_opinion = -20
 		republic_government_vassal_opinion = -20
-
 		character_travel_safety = 10
-
+		if={
+			limit = {
+				prestige_level > 1
+			}
+			men_at_arms_cap = 5
+		}
+		men_at_arms_cap = -2
+		men_at_arms_limit = -2
 		ai_war_chance = 0.25
 		monthly_prestige = 0.2
 	}
