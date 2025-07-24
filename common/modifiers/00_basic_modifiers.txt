@@ -21,9 +21,9 @@ stewardship_modifier = {
 	character_travel_speed = 1
 }
 stewardship_modifier_with_offset = {
-	domain_tax_mult = 0.03
-	domicile_monthly_gold_mult = 0.06
-	monthly_income_from_herd_mult = 0.03
+	domain_tax_mult = 0.02
+	domicile_monthly_gold_mult = 0.04
+	monthly_income_from_herd_mult = 0.02
 	#build_gold_cost = -0.02
 	#holding_build_gold_cost = -0.02
 }
