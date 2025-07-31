@@ -213,7 +213,7 @@ zealous_proselytizer_stargazer_percentage = 10
 # Sanctioned Loopholes
 minor_buy_claim_piety_value = {
 	value = minor_piety_value
-	multiply = 5
+	multiply = 10
 }
 medium_buy_claim_piety_value = {
 	value = minor_buy_claim_piety_value
