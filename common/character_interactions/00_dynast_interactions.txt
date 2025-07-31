@@ -40,6 +40,7 @@ disinherit_interaction = {
 			}
 			text = "mystical_ancestors_disinherit"
 		}
+		scope:actor = { legitimacy_level >= 3 }
 	}
 
 	is_valid_showing_failures_only = {
@@ -105,20 +106,20 @@ disinherit_interaction = {
 				if = {
 					limit = { scope:recipient = { is_primary_heir_of = scope:actor } }
 					add_legitimacy = {
-						value = medium_legitimacy_loss
+						value = major_legitimacy_loss
 						multiply = scope:actor.primary_title.tier
 					}
 				}
 				else_if = {
 					limit = { scope:recipient = { is_child_of = scope:actor } }
 					add_legitimacy = {
-						value = minor_legitimacy_loss
+						value = medium_legitimacy_loss
 						multiply = scope:actor.primary_title.tier
 					}
 				}
 				else = {
 					add_legitimacy = {
-						value = miniscule_legitimacy_loss
+						value = minor_legitimacy_loss
 						multiply = scope:actor.primary_title.tier
 					}
 				}
@@ -177,7 +178,7 @@ disinherit_interaction = {
 	cost = {
 		renown = {
 			value = {
-				add = scope:actor.dynasty.medium_dynasty_prestige_value #Unop ck3-tiger
+				add = scope:actor.dynasty.major_dynasty_prestige_value #Unop ck3-tiger
 				if = {
 					limit = {
 						scope:recipient = {
@@ -216,7 +217,7 @@ disinherit_interaction = {
 		}
 		prestige = {
 			value = {
-				add = medium_prestige_value
+				add = massive_prestige_value
 				if = {
 					limit = {
 						scope:recipient = {
@@ -234,7 +235,7 @@ disinherit_interaction = {
 							}
 						}
 					}
-					add = medium_prestige_value
+					add = high_prestige_value
 				}
 				if = {
 					limit = {

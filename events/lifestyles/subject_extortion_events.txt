@@ -289,7 +289,7 @@ subject_extortion.0005 = {
 
 	option = { # I believe gifts are in order
 		name = subject_extortion.0005.b
-		add_gold = small_gold_value
+		add_gold = minor_gold_value
 		add_prestige = medium_prestige_loss
 		ai_chance = {
 			base = 100
