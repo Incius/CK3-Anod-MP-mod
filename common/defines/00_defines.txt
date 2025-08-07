@@ -1014,7 +1014,7 @@ NPathFinding = {
 NCulture = {
 	MINIMUM_INNOVATIONS_TO_NEXT_ERA = 0.5									# Percentage of innovations to be able to go to the next era
 	ERA_PROGRESS_GAIN_BASE_MONTHLY = 0.1									# Base percentage gain every month for era exposure
-	ERA_PROGRESS_GAIN_MONTHLY_PER_AVERAGE_DEVELOPMENT_LEVEL = 0.05			# How much extra per average development level
+	ERA_PROGRESS_GAIN_MONTHLY_PER_AVERAGE_DEVELOPMENT_LEVEL = 0.03			# How much extra per average development level
 	FIRST_ERA_START_YEAR = 476												# When did the first era start?
 
 	# Regional exposure will start with the minimum number of regions from any of the next percentages
@@ -1034,7 +1034,7 @@ NCulture = {
 	# If the random roll succeeds, the innovation will progress by:
 	# base + from development + from eras ahead
 	INNOVATION_PROGRESS_GAIN_BASE = 0.3
-	INNOVATION_PROGRESS_GAIN_PER_AVERAGE_DEVELOPMENT_LEVEL = 0.02
+	INNOVATION_PROGRESS_GAIN_PER_AVERAGE_DEVELOPMENT_LEVEL = 0.01
 	INNOVATION_PROGRESS_GAIN_PER_ERA_AHEAD = 0.2
 	MINIMUM_DYNASTY_NAMES = 2 # We'll log an error for any culture with less dynasty names than this. Dynasty names from the culture group will count
 
