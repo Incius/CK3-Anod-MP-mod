@@ -32,13 +32,13 @@ spouse_default_task_diplomacy_scale = {
 		limit = {
 			scope:councillor_liege = { has_perk = loyalty_and_respect_perk }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
 			scope:councillor_liege.culture = { has_cultural_parameter = better_spouses }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	divide = 5
 	if = {
@@ -62,13 +62,13 @@ spouse_default_task_martial_scale = {
 		limit = {
 			scope:councillor_liege = { has_perk = loyalty_and_respect_perk }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
 			scope:councillor_liege.culture = { has_cultural_parameter = better_spouses }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	divide = 5
 	if = {
@@ -92,13 +92,13 @@ spouse_default_task_intrigue_scale = {
 		limit = {
 			scope:councillor_liege = { has_perk = loyalty_and_respect_perk }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
 			scope:councillor_liege.culture = { has_cultural_parameter = better_spouses }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
@@ -109,7 +109,7 @@ spouse_default_task_intrigue_scale = {
 				}
 			}
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	divide = 5
 	if = {
@@ -133,13 +133,13 @@ spouse_default_task_learning_scale = {
 		limit = {
 			scope:councillor_liege = { has_perk = loyalty_and_respect_perk }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
 			scope:councillor_liege.culture = { has_cultural_parameter = better_spouses }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	divide = 5
 	if = {
@@ -163,13 +163,13 @@ spouse_default_task_stewardship_scale = {
 		limit = {
 			scope:councillor_liege = { has_perk = loyalty_and_respect_perk }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
 			scope:councillor_liege.culture = { has_cultural_parameter = better_spouses }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	divide = 5
 	if = {
@@ -193,15 +193,15 @@ spouse_task_court_politics_scale = {
 		limit = {
 			scope:councillor_liege = { has_perk = loyalty_and_respect_perk }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
 			scope:councillor_liege.culture = { has_cultural_parameter = better_spouses }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
-	divide = 2
+	divide = 3
 	if = {
 		limit = {
 			OR = {
@@ -223,15 +223,15 @@ spouse_task_chivalry_scale = {
 		limit = {
 			scope:councillor_liege = { has_perk = loyalty_and_respect_perk }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
 			scope:councillor_liege.culture = { has_cultural_parameter = better_spouses }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
-	divide = 2
+	divide = 3
 	if = {
 		limit = {
 			OR = {
@@ -253,13 +253,13 @@ spouse_task_court_intrigue_scale = {
 		limit = {
 			scope:councillor_liege = { has_perk = loyalty_and_respect_perk }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
 			scope:councillor_liege.culture = { has_cultural_parameter = better_spouses }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
@@ -270,9 +270,9 @@ spouse_task_court_intrigue_scale = {
 				}
 			}
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
-	divide = 2
+	divide = 3
 	if = {
 		limit = {
 			OR = {
@@ -294,15 +294,15 @@ spouse_task_manage_domain_scale = {
 		limit = {
 			scope:councillor_liege = { has_perk = loyalty_and_respect_perk }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
 			scope:councillor_liege.culture = { has_cultural_parameter = better_spouses }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
-	divide = 2
+	divide = 3
 	if = {
 		limit = {
 			OR = {
@@ -324,15 +324,15 @@ spouse_task_patronage_scale = {
 		limit = {
 			scope:councillor_liege = { has_perk = loyalty_and_respect_perk }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
 	if = {
 		limit = {
 			scope:councillor_liege.culture = { has_cultural_parameter = better_spouses }
 		}
-		multiply = 1.25
+		multiply = 1.2
 	}
-	divide = 2
+	divide = 3
 	if = {
 		limit = {
 			OR = {
