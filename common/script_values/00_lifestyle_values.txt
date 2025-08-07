@@ -204,7 +204,7 @@ duty_focus_value = -20
 clerical_justifications_percentage = 20
 
 # Learn on the Job
-learn_on_the_job_percentage = 20
+learn_on_the_job_percentage = 10
 
 # Zealous Proselytizer
 zealous_proselytizer_percentage = 25
