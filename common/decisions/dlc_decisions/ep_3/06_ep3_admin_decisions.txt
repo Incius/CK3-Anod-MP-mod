@@ -732,7 +732,9 @@ convert_to_administrative_decision = {
 				culture = { has_cultural_pillar = ethos_egalitarian }
 				culture = { has_cultural_tradition = tradition_legalistic }
 				culture = { has_cultural_tradition = tradition_republican_legacy}
+				culture = { has_cultural_tradition = tradtion_ep3_roman_ceremonies }
 				faith = { has_doctrine = tenet_legalism }
+				realm_size >= 200
 				dynasty = {
 					has_dynasty_perk = erudition_legacy_5
 				}
