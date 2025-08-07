@@ -1256,7 +1256,7 @@ governor_efficiency = {
 				desc = diplomacy_concept
 				add = {
 					value = diplomacy
-					multiply = 1.7
+					multiply = 1
 				}
 				round = yes
 			}
@@ -1264,7 +1264,7 @@ governor_efficiency = {
 				desc = martial_concept
 				add = {
 					value = martial
-					multiply = 1.7
+					multiply = 1
 				}
 				round = yes
 			}
@@ -1272,7 +1272,7 @@ governor_efficiency = {
 				desc = stewardship_concept
 				add = {
 					value = stewardship
-					multiply = 1.7
+					multiply = 1
 				}
 				round = yes
 			}
@@ -1280,7 +1280,7 @@ governor_efficiency = {
 				desc = intrigue_concept
 				add = {
 					value = intrigue
-					multiply = 1.7
+					multiply = 1
 				}
 				round = yes
 			}
@@ -1288,7 +1288,7 @@ governor_efficiency = {
 				desc = learning_concept
 				add = {
 					value = learning
-					multiply = 1.7
+					multiply = 1
 				}
 				round = yes
 			}
@@ -1764,8 +1764,8 @@ governor_efficiency = {
 				divide = 100
 			}
 		}
-		min = 0.5 # Can't go lower than -50%
-		max = 1.5 # Can't go higher than +50%
+		min = 0.7 # Can't go lower than -50%
+		max = 1.3 # Can't go higher than +50%
 	}
 }
 
